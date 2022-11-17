@@ -5,14 +5,14 @@ window.addEventListener('keydown', (e) => {
     console.log(e);
     insert.innerHTML = `<div class="key">
     ${e.key === ' ' ? 'Space' : e.key}
-    <small>event.key</small>
+    <small>Key</small>
 </div>
 <div class="key">
     ${e.keyCode}
-    <small>event.keyCode</small>
+    <small>KeyCode</small>
 </div>
 <div class="key">
     ${e.code}
-    <small>event.code</small>
+    <small>Code</small>
 </div>`
 })
